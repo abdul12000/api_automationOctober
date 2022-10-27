@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="6.617">
+    <testcase classname="Imagine you are building a social network. Starting from simple functionality. Users are now able to make posts and comment on them." name="Test that existing comments can be retreived with a GET request" time="5.187">
+        <system-out><![CDATA[Given service is up and running.............................................passed
+When i search for "2" of a comment with a GET method........................passed
+Then i should get the correct "2", "quo vero reiciendis velit similique earum", "Jayne_Kuhic@sydney.com" and "est natus enim nihil est dolore omnis voluptatem numquam
+et omnis occaecati quod ullam at
+voluptatem error expedita pariatur
+nihil sint nostrum voluptatem reiciendis et" returned with status code of 200.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Imagine you are building a social network. Starting from simple functionality. Users are now able to make posts and comment on them." name="Test that existing comments can be retreived with a GET request 2" time="0.335">
+        <system-out><![CDATA[Given service is up and running.............................................passed
+When i search for "15" of a comment with a GET method.......................passed
+Then i should get the correct "15", "debitis magnam hic odit aut ullam nostrum tenetur", "Maynard.Hodkiewicz@roberta.com" and "nihil ut voluptates blanditiis autem odio dicta rerum
+quisquam saepe et est
+sunt quasi nemo laudantium deserunt
+molestias tempora quo quia" returned with status code of 200.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Imagine you are building a social network. Starting from simple functionality. Users are now able to make posts and comment on them." name="Test that new comments can be created with the POST request" time="0.862">
+        <system-out><![CDATA[Given service is up and running.............................................passed
+When I create a new comment with the following details "4","Comment on a resent post", "lateefAbdulsalam@gmail.com" and "I like this new post",.passed
+Then i should get the correct "4","Comment on a resent post", "lateefAbdulsalam@gmail.com" and "I like this new post" returned and with status code of 201.passed
+]]></system-out>
+    </testcase>
+</testsuite>
